@@ -20,8 +20,8 @@ if [ $? -eq 0 ]; then
   echo -e "$passrandom\n$passrandom" | passwd $username
   clear
   echo " "
-  echo "Script by AutoScriptNobita.Tk"
-  echo "Terima Kasih Kerana Sudah Berlangganan Dengan Nobita95"
+  echo "Script by OrangKuatSabahanTerkini"
+  echo "Terima Kasih Kerana Sudah Berlangganan Dengan OrangKuatSabahanTerkini"
   echo " "
   echo "Demikian Detail Account Trial Anda"
   echo "------------------------------"
@@ -39,7 +39,7 @@ else
   echo -e "$passrandom\n$passrandom" | passwd $username
   clear
   echo " "
-  echo "Terima Kasih Kerana Sudah Berlangganan Dengan Nobita95"
+  echo "Terima Kasih Kerana Sudah Berlangganan Dengan OrangKuatSabahanTerkini"
   echo " "
   echo "Demikian Detail Account Trial Anda"
   echo "------------------------------"
