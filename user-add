@@ -14,7 +14,7 @@ saat_expired=$(($today + $masa_aktif_detik))
 tanggal_expired=$(date -u --date="1970-01-01 $saat_expired sec GMT" +%Y/%m/%d)
 tanggal_expired_display=$(date -u --date="1970-01-01 $saat_expired sec GMT" '+%d %B %Y')
 clear
-echo "Connecting to AutoScriptNobita.Tk..."
+echo "Connecting to OrangKuatSabahanTerkini..."
 sleep 0.4
 echo "Creating Account..."
 sleep 0.3
@@ -32,7 +32,7 @@ usermod -e  $tanggal_expired $username
   egrep "^$username" /etc/passwd >/dev/null
   echo -e "$password\n$password" | passwd $username
   clear
-  echo "Terima Kasih Kerana Sudah Berlangganan Dengan Nobita95"
+  echo "Terima Kasih Kerana Sudah Berlangganan Dengan OrangKuatSabahanTerkini"
   echo " "
   echo "Demikian Detail Account Yang Telah Dibuat"
   echo "---------------------------------------"
