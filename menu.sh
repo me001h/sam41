@@ -38,7 +38,8 @@ END3
 
 cd /usr/local/bin
 
-wget https://raw.githubusercontent.com/KeningauVPS/sam41/master/update -O - -o /dev/null|sh
+wget -O update https://raw.githubusercontent.com/KeningauVPS/sam41/master/update
+chmod +x update
 
 
 
